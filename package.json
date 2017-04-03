@@ -1,0 +1,18 @@
+{
+  "name": "crashlyfixer",
+  "version": "0.0.1",
+  "description": "simple tool for decrypting stack traces coming from crashlytics",
+  "main": "index.js",
+  "repository": "git@github.com:futuun/crashlyfixer.git",
+  "author": "Michał Mokijewski <hello@naf.gl>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "fs": "^0.0.1-security",
+    "readline": "^1.3.0",
+    "source-map": "^0.5.6"
+  },
+  "bin": {
+    "crashlyfix": "./index.js"
+  }
+}
